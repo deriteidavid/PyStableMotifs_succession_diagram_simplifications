@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="motif" attr.type="string"/>
+<key id="d5" for="edge" attr.name="states" attr.type="string"/>
+<key id="d4" for="node" attr.name="label" attr.type="string"/>
+<key id="d3" for="node" attr.name="motif union" attr.type="string"/>
+<key id="d2" for="node" attr.name="history" attr.type="string"/>
+<key id="d1" for="node" attr.name="states" attr.type="string"/>
+<key id="d0" for="node" attr.name="index" attr.type="string"/>
+<graph edgedefault="directed"><node id="0">
+  <data key="d0">0</data>
+  <data key="d1">{}</data>
+  <data key="d2">[[]]</data>
+  <data key="d3">{}</data>
+  <data key="d4">{}</data>
+</node>
+<node id="1">
+  <data key="d0">1</data>
+  <data key="d1">{'Cdc25A': 0, 'CyclinA': 0}</data>
+  <data key="d2">[[{'Cdc25A': 0, 'CyclinA': 0}]]</data>
+  <data key="d3">{'Cdc25A': 0, 'CyclinA': 0}</data>
+  <data key="d4">{'Cdc25A': 0, 'CyclinA': 0}</data>
+</node>
+<node id="2">
+  <data key="d0">2</data>
+  <data key="d1">{'Cdc25A': 0, 'CyclinA': 0, 'Cdh1': 1, 'CyclinB': 0, 'Cdc20': 0, 'Cdc25C': 0, 'Cdk1': 0, 'Mad2': 0, 'Wee1': 1, 'pAPC': 0, 'UbcH10': 0}</data>
+  <data key="d2">[[{'Cdc25A': 0, 'CyclinA': 0}, {'Cdh1': 1, 'CyclinB': 0}]]</data>
+  <data key="d3">{'Cdc25A': 0, 'CyclinA': 0, 'Cdh1': 1, 'CyclinB': 0}</data>
+  <data key="d4">{'Cdc25A': 0, 'CyclinA': 0, 'Cdh1': 1, 'CyclinB': 0}</data>
+</node>
+<node id="3">
+  <data key="d0">3</data>
+  <data key="d1">{'Cdc25A': 0, 'CyclinA': 0, 'Cdh1': 1, 'CyclinB': 0, 'Cdc20': 0, 'Cdc25C': 0, 'Cdk1': 0, 'Mad2': 0, 'Wee1': 1, 'pAPC': 0, 'UbcH10': 0}</data>
+  <data key="d2">[[{'Cdc25A': 0, 'CyclinA': 0}, {'Cdc25C': 0, 'Cdk1': 0}]]</data>
+  <data key="d3">{'Cdc25A': 0, 'CyclinA': 0, 'Cdc25C': 0, 'Cdk1': 0}</data>
+  <data key="d4">{'Cdc25A': 0, 'CyclinA': 0, 'Cdc25C': 0, 'Cdk1': 0}</data>
+</node>
+<node id="4">
+  <data key="d0">4</data>
+  <data key="d1">{'Cdc25A': 0, 'CyclinA': 0, 'Cdh1': 1, 'CyclinB': 0, 'Cdc20': 0, 'Cdc25C': 0, 'Cdk1': 0, 'Mad2': 0, 'Wee1': 1, 'pAPC': 0, 'UbcH10': 0}</data>
+  <data key="d2">[[{'Cdc25A': 0, 'CyclinA': 0}, {'Cdk1': 0, 'Wee1': 1}]]</data>
+  <data key="d3">{'Cdc25A': 0, 'CyclinA': 0, 'Cdk1': 0, 'Wee1': 1}</data>
+  <data key="d4">{'Cdc25A': 0, 'CyclinA': 0, 'Cdk1': 0, 'Wee1': 1}</data>
+</node>
+<node id="5">
+  <data key="d0">5</data>
+  <data key="d1">{'Cdc25A': 0, 'CyclinA': 0, 'Cdc20': 0, 'Cdc25C': 1, 'Cdh1': 0, 'Cdk1': 1, 'CyclinB': 1, 'Mad2': 1, 'UbcH10': 1, 'Wee1': 0, 'pAPC': 1}</data>
+  <data key="d2">[[{'Cdc25A': 0, 'CyclinA': 0}, {'Cdc20': 0, 'Cdc25C': 1, 'Cdh1': 0, 'Cdk1': 1, 'CyclinB': 1, 'Mad2': 1}]]</data>
+  <data key="d3">{'Cdc25A': 0, 'CyclinA': 0, 'Cdc20': 0, 'Cdc25C': 1, 'Cdh1': 0, 'Cdk1': 1, 'CyclinB': 1, 'Mad2': 1}</data>
+  <data key="d4">{'Cdc25A': 0, 'CyclinA': 0, 'Cdc20': 0, 'Cdc25C': 1, 'Cdh1': 0, 'Cdk1': 1, 'CyclinB': 1, 'Mad2': 1}</data>
+</node>
+<node id="6">
+  <data key="d0">6</data>
+  <data key="d1">{'Cdk1': 0, 'Wee1': 1, 'Mad2': 0}</data>
+  <data key="d2">[[{'Cdk1': 0, 'Wee1': 1}]]</data>
+  <data key="d3">{'Cdk1': 0, 'Wee1': 1}</data>
+  <data key="d4">{'Cdk1': 0, 'Wee1': 1}</data>
+</node>
+<node id="7">
+  <data key="d0">7</data>
+  <data key="d1">{'Cdk1': 0, 'Wee1': 1, 'Mad2': 0, 'pAPC': 0, 'Cdc20': 0}</data>
+  <data key="d2">[[{'Cdk1': 0, 'Wee1': 1}, {'pAPC': 0}]]</data>
+  <data key="d3">{'Cdk1': 0, 'Wee1': 1, 'pAPC': 0}</data>
+  <data key="d4">{'Cdk1': 0, 'Wee1': 1, 'pAPC': 0}</data>
+</node>
+<node id="8">
+  <data key="d0">8</data>
+  <data key="d1">{'Cdc25A': 0, 'CyclinA': 0, 'Cdh1': 1, 'CyclinB': 0, 'Cdc20': 0, 'Cdc25C': 0, 'Cdk1': 0, 'Mad2': 0, 'Wee1': 1, 'pAPC': 0, 'UbcH10': 0}</data>
+  <data key="d2">[[{'Cdk1': 0, 'Wee1': 1}, {'pAPC': 0}, {'Cdc25A': 0, 'CyclinA': 0}]]</data>
+  <data key="d3">{'Cdk1': 0, 'Wee1': 1, 'pAPC': 0, 'Cdc25A': 0, 'CyclinA': 0}</data>
+  <data key="d4">{'Cdk1': 0, 'Wee1': 1, 'pAPC': 0, 'Cdc25A': 0, 'CyclinA': 0}</data>
+</node>
+<node id="9">
+  <data key="d0">9</data>
+  <data key="d1">{'Cdk1': 0, 'Wee1': 1, 'Mad2': 0, 'pAPC': 0, 'Cdc20': 0, 'Cdh1': 0, 'CyclinA': 1, 'Cdc25A': 1, 'Cdc25C': 1, 'CyclinB': 1, 'UbcH10': 1}</data>
+  <data key="d2">[[{'Cdk1': 0, 'Wee1': 1}, {'pAPC': 0}, {'Cdh1': 0, 'CyclinA': 1}]]</data>
+  <data key="d3">{'Cdk1': 0, 'Wee1': 1, 'pAPC': 0, 'Cdh1': 0, 'CyclinA': 1}</data>
+  <data key="d4">{'Cdk1': 0, 'Wee1': 1, 'pAPC': 0, 'Cdh1': 0, 'CyclinA': 1}</data>
+</node>
+<node id="10">
+  <data key="d0">10</data>
+  <data key="d1">{'Cdc20': 0, 'Cdc25C': 1, 'Cdh1': 0, 'Cdk1': 1, 'CyclinB': 1, 'Mad2': 1, 'UbcH10': 1, 'Wee1': 0, 'pAPC': 1}</data>
+  <data key="d2">[[{'Cdc20': 0, 'Cdc25C': 1, 'Cdh1': 0, 'Cdk1': 1, 'CyclinB': 1, 'Mad2': 1}]]</data>
+  <data key="d3">{'Cdc20': 0, 'Cdc25C': 1, 'Cdh1': 0, 'Cdk1': 1, 'CyclinB': 1, 'Mad2': 1}</data>
+  <data key="d4">{'Cdc20': 0, 'Cdc25C': 1, 'Cdh1': 0, 'Cdk1': 1, 'CyclinB': 1, 'Mad2': 1}</data>
+</node>
+<node id="11">
+  <data key="d0">11</data>
+  <data key="d1">{'Cdc20': 0, 'Cdc25C': 1, 'Cdh1': 0, 'Cdk1': 1, 'CyclinB': 1, 'Mad2': 1, 'UbcH10': 1, 'Wee1': 0, 'pAPC': 1, 'CyclinA': 1, 'Cdc25A': 1}</data>
+  <data key="d2">[[{'Cdc20': 0, 'Cdc25C': 1, 'Cdh1': 0, 'Cdk1': 1, 'CyclinB': 1, 'Mad2': 1}, {'CyclinA': 1}]]</data>
+  <data key="d3">{'Cdc20': 0, 'Cdc25C': 1, 'Cdh1': 0, 'Cdk1': 1, 'CyclinB': 1, 'Mad2': 1, 'CyclinA': 1}</data>
+  <data key="d4">{'Cdc20': 0, 'Cdc25C': 1, 'Cdh1': 0, 'Cdk1': 1, 'CyclinB': 1, 'Mad2': 1, 'CyclinA': 1}</data>
+</node>
+<node id="A0">
+  <data key="d0">A0</data>
+  <data key="d1">{'Cdc20': 0, 'Cdc25A': 0, 'Cdc25C': 0, 'Cdh1': 1, 'Cdk1': 0, 'CyclinA': 0, 'CyclinB': 0, 'Mad2': 0, 'UbcH10': 0, 'Wee1': 1, 'pAPC': 0}</data>
+  <data key="d4">Attractor A0:
+ {'Cdc20': 0, 'Cdc25A': 0, 'Cdc25C': 0, 'Cdh1': 1, 'Cdk1': 0, 'CyclinA': 0, 'CyclinB': 0, 'Mad2': 0, 'UbcH10': 0, 'Wee1': 1, 'pAPC': 0}</data>
+</node>
+<node id="A1">
+  <data key="d0">A1</data>
+  <data key="d1">{'Cdc20': 0, 'Cdc25A': 0, 'Cdc25C': 1, 'Cdh1': 0, 'Cdk1': 1, 'CyclinA': 0, 'CyclinB': 1, 'Mad2': 1, 'UbcH10': 1, 'Wee1': 0, 'pAPC': 1}</data>
+  <data key="d4">Attractor A1:
+ {'Cdc20': 0, 'Cdc25A': 0, 'Cdc25C': 1, 'Cdh1': 0, 'Cdk1': 1, 'CyclinA': 0, 'CyclinB': 1, 'Mad2': 1, 'UbcH10': 1, 'Wee1': 0, 'pAPC': 1}</data>
+</node>
+<node id="A2">
+  <data key="d0">A2</data>
+  <data key="d1">{'Cdc20': 0, 'Cdc25A': 1, 'Cdc25C': 1, 'Cdh1': 0, 'Cdk1': 0, 'CyclinA': 1, 'CyclinB': 1, 'Mad2': 0, 'UbcH10': 1, 'Wee1': 1, 'pAPC': 0}</data>
+  <data key="d4">Attractor A2:
+ {'Cdc20': 0, 'Cdc25A': 1, 'Cdc25C': 1, 'Cdh1': 0, 'Cdk1': 0, 'CyclinA': 1, 'CyclinB': 1, 'Mad2': 0, 'UbcH10': 1, 'Wee1': 1, 'pAPC': 0}</data>
+</node>
+<node id="A3">
+  <data key="d0">A3</data>
+  <data key="d1">{'Cdc20': 0, 'Cdc25A': 1, 'Cdc25C': 1, 'Cdh1': 0, 'Cdk1': 1, 'CyclinA': 1, 'CyclinB': 1, 'Mad2': 1, 'UbcH10': 1, 'Wee1': 0, 'pAPC': 1}</data>
+  <data key="d4">Attractor A3:
+ {'Cdc20': 0, 'Cdc25A': 1, 'Cdc25C': 1, 'Cdh1': 0, 'Cdk1': 1, 'CyclinA': 1, 'CyclinB': 1, 'Mad2': 1, 'UbcH10': 1, 'Wee1': 0, 'pAPC': 1}</data>
+</node>
+<edge source="0" target="1">
+  <data key="d5">{'Cdc25A': 0, 'CyclinA': 0}</data>
+  <data key="d6">{'Cdc25A': 0, 'CyclinA': 0}</data>
+</edge>
+<edge source="0" target="6">
+  <data key="d5">{'Cdk1': 0, 'Wee1': 1, 'Mad2': 0}</data>
+  <data key="d6">{'Cdk1': 0, 'Wee1': 1}</data>
+</edge>
+<edge source="0" target="10">
+  <data key="d5">{'Cdc20': 0, 'Cdc25C': 1, 'Cdh1': 0, 'Cdk1': 1, 'CyclinB': 1, 'Mad2': 1, 'UbcH10': 1, 'Wee1': 0, 'pAPC': 1}</data>
+  <data key="d6">{'Cdc20': 0, 'Cdc25C': 1, 'Cdh1': 0, 'Cdk1': 1, 'CyclinB': 1, 'Mad2': 1}</data>
+</edge>
+<edge source="1" target="2">
+  <data key="d5">{'Cdh1': 1, 'CyclinB': 0, 'Cdc20': 0, 'Cdc25C': 0, 'Cdk1': 0, 'Mad2': 0, 'Wee1': 1, 'pAPC': 0, 'UbcH10': 0}</data>
+  <data key="d6">{'Cdh1': 1, 'CyclinB': 0}</data>
+</edge>
+<edge source="1" target="3">
+  <data key="d5">{'Cdh1': 1, 'CyclinB': 0, 'Cdc20': 0, 'Cdc25C': 0, 'Cdk1': 0, 'Mad2': 0, 'Wee1': 1, 'pAPC': 0, 'UbcH10': 0}</data>
+  <data key="d6">{'Cdc25C': 0, 'Cdk1': 0}</data>
+</edge>
+<edge source="1" target="4">
+  <data key="d5">{'Cdh1': 1, 'CyclinB': 0, 'Cdc20': 0, 'Cdc25C': 0, 'Cdk1': 0, 'Mad2': 0, 'Wee1': 1, 'pAPC': 0, 'UbcH10': 0}</data>
+  <data key="d6">{'Cdk1': 0, 'Wee1': 1}</data>
+</edge>
+<edge source="1" target="5">
+  <data key="d5">{'Cdc20': 0, 'Cdc25C': 1, 'Cdh1': 0, 'Cdk1': 1, 'CyclinB': 1, 'Mad2': 1, 'UbcH10': 1, 'Wee1': 0, 'pAPC': 1}</data>
+  <data key="d6">{'Cdc20': 0, 'Cdc25C': 1, 'Cdh1': 0, 'Cdk1': 1, 'CyclinB': 1, 'Mad2': 1}</data>
+</edge>
+<edge source="2" target="A0">
+  <data key="d5"></data>
+</edge>
+<edge source="3" target="A0">
+  <data key="d5"></data>
+</edge>
+<edge source="4" target="A0">
+  <data key="d5"></data>
+</edge>
+<edge source="5" target="A1">
+  <data key="d5"></data>
+</edge>
+<edge source="6" target="4">
+  <data key="d5">{'Cdc25A': 0, 'CyclinA': 0, 'Cdh1': 1, 'CyclinB': 0, 'Cdc20': 0, 'Cdc25C': 0, 'pAPC': 0, 'UbcH10': 0}</data>
+  <data key="d6">{'Cdc25A': 0, 'CyclinA': 0}</data>
+</edge>
+<edge source="6" target="7">
+  <data key="d5">{'pAPC': 0, 'Cdc20': 0}</data>
+  <data key="d6">{'pAPC': 0}</data>
+</edge>
+<edge source="7" target="8">
+  <data key="d5">{'Cdc25A': 0, 'CyclinA': 0, 'Cdh1': 1, 'CyclinB': 0, 'Cdc25C': 0, 'UbcH10': 0}</data>
+  <data key="d6">{'Cdc25A': 0, 'CyclinA': 0}</data>
+</edge>
+<edge source="7" target="9">
+  <data key="d5">{'Cdh1': 0, 'CyclinA': 1, 'Cdc25A': 1, 'Cdc25C': 1, 'CyclinB': 1, 'UbcH10': 1}</data>
+  <data key="d6">{'Cdh1': 0, 'CyclinA': 1}</data>
+</edge>
+<edge source="8" target="A0">
+  <data key="d5"></data>
+</edge>
+<edge source="9" target="A2">
+  <data key="d5"></data>
+</edge>
+<edge source="10" target="5">
+  <data key="d5">{'Cdc25A': 0, 'CyclinA': 0}</data>
+  <data key="d6">{'Cdc25A': 0, 'CyclinA': 0}</data>
+</edge>
+<edge source="10" target="11">
+  <data key="d5">{'CyclinA': 1, 'Cdc25A': 1}</data>
+  <data key="d6">{'CyclinA': 1}</data>
+</edge>
+<edge source="11" target="A3">
+  <data key="d5"></data>
+</edge>
+</graph></graphml>
